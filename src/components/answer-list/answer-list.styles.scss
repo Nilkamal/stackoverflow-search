@@ -1,0 +1,13 @@
+.answer-list {
+  .question {
+    display: flex;
+    justify-content: flex-start;
+
+    h2 {
+      font-size: 2em;
+      font-weight: 400;
+      padding-bottom: 17px;
+      border-bottom: 2px solid #e3e6e8;
+    }
+  }
+}

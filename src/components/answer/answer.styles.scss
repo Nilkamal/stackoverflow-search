@@ -1,0 +1,29 @@
+.answer {
+  padding-bottom: 17px;
+  border-bottom: 2px solid #e3e6e8;
+
+  .owner {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+
+    .answer-image-container {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 10px;
+      img {
+        width: 64px;
+        border-radius: 10px;
+        height: 64px;
+      }
+    }
+
+    .user-name {
+      display: flex;
+      justify-content: flex-start;
+      align-self: center;
+      color: #0074cc;
+      width: 20%;
+    }
+  }
+}

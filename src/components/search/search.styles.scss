@@ -1,0 +1,14 @@
+.search {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+  input {
+    width: 50%;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    align-self: flex-start;
+  }
+}
